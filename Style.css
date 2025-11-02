@@ -1,0 +1,48 @@
+body {
+  font-family: Poppins, Arial, sans-serif;
+  background: linear-gradient(135deg, #a86af9, #6a0dad);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  margin-top: 20px;
+  color: #333;
+}
+
+select, button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+select {
+  background-color: white;
+  color: #333;
+  width: 60%;
+}
+
+button {
+  background-color: #4b0082;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3a0070;
+}

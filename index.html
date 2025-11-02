@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voice Generator AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎙️ Voice Generator AI</h1>
+  <p>Type your text, choose language & voice — then click Generate!</p>
+
+  <textarea id="textInput" placeholder="Type something here..."></textarea><br>
+
+  <select id="languageSelect" onchange="filterVoices()">
+    <option value="all">🌐 All Languages</option>
+    <option value="en">🇺🇸 English</option>
+    <option value="ur">🇵🇰 Urdu</option>
+    <option value="ps">🇦🇫 Pashto</option>
+    <option value="ar">🇸🇦 Arabic</option>
+    <option value="hi">🇮🇳 Hindi</option>
+    <option value="fr">🇫🇷 French</option>
+    <option value="es">🇪🇸 Spanish</option>
+  </select><br>
+
+  <select id="voiceSelect"></select><br>
+
+  <button onclick="speak()">Generate Voice</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
